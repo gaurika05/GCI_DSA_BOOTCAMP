@@ -14,5 +14,5 @@ int main(){
     else if(n>0){
         cout<<n<<" is positive";
     }
-
+    return 0;
 }
