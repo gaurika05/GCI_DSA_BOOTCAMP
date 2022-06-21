@@ -1,3 +1,5 @@
+/*check lower or upper case character*/
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -10,4 +12,5 @@ int main(){
     else if(ch>='A' && ch<='Z'){
         cout<<ch<<" is an uppercase character.";
     }
+    return 0;
 }
