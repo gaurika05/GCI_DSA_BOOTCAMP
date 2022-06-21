@@ -13,5 +13,5 @@ int main(){
     else{
         cout<<"It is a rectangle..";
     }
-
+    return 0;
 }
