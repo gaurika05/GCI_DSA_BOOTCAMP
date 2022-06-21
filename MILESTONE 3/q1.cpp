@@ -1,3 +1,5 @@
+//Write a C program to find first and last digit of a number
+//!!IMPORTANT!!
 #include<iostream>
 using namespace std;
 int main(){
@@ -11,5 +13,5 @@ int main(){
     cout<<"first digit:"<<first<<endl;
     int last=n%10;
     cout<<"last digit:"<<last;
-
+    return 0;
 }
