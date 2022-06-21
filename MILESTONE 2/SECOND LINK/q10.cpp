@@ -1,3 +1,6 @@
+//!!IMPORTANT!!
+//Write a C program to count number of digits in a number.
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -10,4 +13,5 @@ int main(){
         count++;
     }
     cout<<"NUMBER OF DIGITS:"<<count;
+    return 0;
 }
