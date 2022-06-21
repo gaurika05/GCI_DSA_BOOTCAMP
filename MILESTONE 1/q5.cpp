@@ -7,4 +7,5 @@ int main(){
     cin>>a>>b;
     int product=a*b;
     cout<<a<<"*"<<b<<"="<<product;
+    return 0;
 }
