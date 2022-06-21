@@ -1,3 +1,5 @@
+//Write a C program to find HCF (GCD) of two numbers.
+//!!IMPORTANT!!
 #include<iostream>
 using namespace std;
 int main(){
@@ -18,4 +20,5 @@ int main(){
         }
     }
     cout<<hcf;
+    return 0;
 }
