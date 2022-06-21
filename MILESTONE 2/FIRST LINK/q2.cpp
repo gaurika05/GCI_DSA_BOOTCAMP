@@ -1,3 +1,4 @@
+//greatest among the two int values
 #include<iostream>
 using namespace std;
 int main(){
@@ -14,5 +15,5 @@ int main(){
     else if(a==b){
         cout<<a<<"="<<b;
     }
-
+    return 0;
 }
