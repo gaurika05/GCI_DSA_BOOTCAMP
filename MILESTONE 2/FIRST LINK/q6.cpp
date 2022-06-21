@@ -1,4 +1,4 @@
-
+//oldest and youngest among three people
 #include<iostream>
 using namespace std;
 int main(){
@@ -31,5 +31,5 @@ int main(){
             cout<<"person with age "<<b<<" is oldest and "<<a<<" is youngest";
         }
     }
-
+    return 0;
 }
