@@ -1,3 +1,5 @@
+//Write a C program to find sum of first and last digit of a number.
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -11,5 +13,5 @@ int main(){
     int last=n%10;
     int sum=first+last;
     cout<<"sum of first and last digit:"<<sum;
-
+    return 0;
 }
