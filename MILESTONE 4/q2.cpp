@@ -1,3 +1,5 @@
+//Write a C program to find all factors of a number.
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -8,4 +10,5 @@ int main(){
             cout<<i<<endl;
         }
     }
+    return 0;
 }
