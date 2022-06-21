@@ -1,3 +1,5 @@
+//Write a C program to calculate sum of digits of a number.
+//!!IMPORTANT!!
 #include<iostream>
 using namespace std;
 int main(){
@@ -12,4 +14,5 @@ int main(){
 
     }
     cout<<"sum of digits:"<<sum;
+    return 0;
 }
