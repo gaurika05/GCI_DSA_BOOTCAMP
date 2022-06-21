@@ -1,3 +1,5 @@
+//Write a C program to print multiplication table of any number
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -9,5 +11,6 @@ int main(){
         cout<<n<<"*"<<i<<"="<<p<<endl;
         i++;
     }
+    return 0;
 
 }
