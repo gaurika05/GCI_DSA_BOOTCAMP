@@ -1,3 +1,5 @@
+//Write a C program to calculate product of digits of a number.
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -11,4 +13,5 @@ int main(){
         n=n/10;
     }
     cout<<"product of digits:"<<product;
+    return 0;
 }
