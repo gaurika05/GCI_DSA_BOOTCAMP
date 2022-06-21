@@ -1,30 +1,26 @@
-#include<cmath>
+//Write a C program to swap first and last digits of a number.
+
 #include<iostream>
+#include<cmath>
 using namespace std;
 int main(){
-    int i=1,n,num,num1,j=0,first,last,new_num;
-    cout<<"Enter any number:"<<endl;
-    cin>>num;
-    num1=num;
-    while(1){
-        num=num/10;
-        j++;
-        if (num==0){
-            break;
-        }
+    int n;
+    cin>>n;
+    int first=n;
+    while(first>=10){
+        first=first/10;
+
     }
-    cout<<num1<<"is a "<<j<<" digit number"<<endl;
-
-    first=(num1/pow(10,(j-1)));
-    last=(num1%10);
-
-    num1=(num1 % int(pow(10,(j-1))));
-    num1=(num1/10);
-
-    num1=(num1*10);
-
-    last=(last*(pow(10,(j-1))));
-    num1=(num1+last+first);
-    cout<<"The new number with swapped first and last digits is:"<<num1<<endl;
+    int i=n,j=0;
+    while(i!=0){
+        i=i/10;
+        j++;
+    }
+    cout<<"first "<<first<<endl;
+    int last=n%10;
+    cout<<"last "<<last<<endl;
+    int k=n;
+    k=(k-(first*pow(10,j-1)))+(last*pow(10,j-1))-last+first;
+    cout<<k;
     return 0;
 }
