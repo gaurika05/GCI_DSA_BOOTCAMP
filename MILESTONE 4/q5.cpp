@@ -1,3 +1,5 @@
+//Write a C program to find LCM of two numbers.
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -19,5 +21,5 @@ int main(){
     }
     lcm=(n1*n2)/hcf;
     cout<<lcm;
-
+    return 0;
 }
