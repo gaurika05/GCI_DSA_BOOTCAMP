@@ -14,6 +14,5 @@ int main(){
     else if(N1=N2){
         cout<<"Both are equal:"<<N1;
     }
-
-
+    return 0;
 }
